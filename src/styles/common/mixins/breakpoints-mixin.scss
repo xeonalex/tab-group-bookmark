@@ -1,0 +1,9 @@
+@mixin breakpoint($breakpoint) {
+
+  @media only screen and (max-width: $breakpoint) { @content ; }
+
+}
+
+@mixin displayNone() {
+  display: none !important;
+}

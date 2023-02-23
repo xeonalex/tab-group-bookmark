@@ -1,0 +1,15 @@
+@mixin spaceTop($value) {
+  margin-top: $value !important;
+}
+
+@mixin spaceRight($value) {
+  margin-right: $value !important;
+}
+
+@mixin spaceBottom($value) {
+  margin-bottom: $value !important;
+}
+
+@mixin spaceLeft($value) {
+  margin-left: $value !important;
+}

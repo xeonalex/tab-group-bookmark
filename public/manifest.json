@@ -1,0 +1,13 @@
+{
+  "name": "Handy Tab transfer",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Handy Tab transfer",
+    "default_popup": "default-popup.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}

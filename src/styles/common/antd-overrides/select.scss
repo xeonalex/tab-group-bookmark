@@ -1,0 +1,12 @@
+.ant-select-selector {
+  .ant-select-selection-overflow-item:first-of-type {
+    max-width: 50%;
+  }
+
+  .ant-select-selection-overflow-item-suffix {
+    flex: 1 !important;
+    .ant-select-selection-search{
+      width: 100% !important;
+    }
+  }
+}

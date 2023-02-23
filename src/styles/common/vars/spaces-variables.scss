@@ -1,0 +1,27 @@
+@import "breakpoints";
+
+:root {
+  --space-unit: 1rem;
+
+  --space-sxs: calc(var(--space-unit) / 4);
+  --space-xs: calc(var(--space-unit) / 2);
+  --space-s: var(--space-unit);
+  --space-m: calc(var(--space-unit) * 2);
+  --space-l: calc(var(--space-unit) * 4);
+  --space-xl: calc(var(--space-unit) * 8);
+  --space-none: 0;
+}
+
+@include breakpoint($breakpoint-lg) {
+  :root {
+    --space-l: calc(var(--space-unit) * 2);
+    --space-xl: calc(var(--space-unit) * 4);
+  }
+}
+
+@include breakpoint($breakpoint-sm) {
+  :root {
+    --space-l: var(--space-s);
+    --space-xl: var(--space-m);
+  }
+}

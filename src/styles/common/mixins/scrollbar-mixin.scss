@@ -1,0 +1,24 @@
+@mixin styledScroll($track-color: var(--scroll-bar-track-color), $thickness: 6px, $radius: 5px) {
+  &::-webkit-scrollbar {
+      width: $thickness;
+  }
+
+  &::-webkit-scrollbar:horizontal {
+      height: $thickness;
+  }
+
+  &::-webkit-scrollbar-track {
+      background: $track-color;
+      border-radius: $radius;
+      border: 1px solid $track-color
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background: var(--scroll-bar-thumb-color);
+      border-radius: $radius;
+      border: 1px solid var(--scroll-bar-thumb-color);
+  }
+
+  scrollbar-color: var(--scroll-bar-thumb-color);
+  scrollbar-width: thin;
+}

@@ -1,0 +1,141 @@
+@import "./vars/spaces-variables";
+@import "./mixins/spaces-mixin";
+
+.mt-sxs {
+  @include spaceTop(var(--space-sxs));
+}
+
+.mt-xs {
+  @include spaceTop(var(--space-xs));
+}
+
+.mt-s {
+  @include spaceTop(var(--space-s));
+}
+
+.mt-m {
+  @include spaceTop(var(--space-m));
+}
+
+.mt-l {
+  @include spaceTop(var(--space-l));
+}
+
+.mt-xl {
+  @include spaceTop(var(--space-xl));
+}
+
+.mt-none {
+  @include spaceTop(var(--space-none))
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+
+.mr-sxs {
+  @include spaceRight(var(--space-sxs));
+}
+
+.mr-xs {
+  @include spaceRight(var(--space-xs));
+}
+
+.mr-s {
+  @include spaceRight(var(--space-s));
+}
+
+.mr-m {
+  @include spaceRight(var(--space-m));
+}
+
+.mr-l {
+  @include spaceRight(var(--space-l));
+}
+
+.mr-xl {
+  @include spaceRight(var(--space-xl));
+}
+
+.mr-none {
+  @include spaceRight(var(--space-none))
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+
+.mb-sxs {
+  @include spaceBottom(var(--space-sxs));
+}
+
+.mb-xs {
+  @include spaceBottom(var(--space-xs));
+}
+
+.mb-s {
+  @include spaceBottom(var(--space-s));
+}
+
+.mb-m {
+  @include spaceBottom(var(--space-m));
+}
+
+.mb-l {
+  @include spaceBottom(var(--space-l));
+}
+
+.mb-xl {
+  @include spaceBottom(var(--space-xl));
+}
+
+.mb-none {
+  @include spaceBottom(var(--space-none))
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+
+.ml-sxs {
+  @include spaceLeft(var(--space-sxs));
+}
+
+.ml-xs {
+  @include spaceLeft(var(--space-xs));
+}
+
+.ml-s {
+  @include spaceLeft(var(--space-s));
+}
+
+.ml-m {
+  @include spaceLeft(var(--space-m));
+}
+
+.ml-l {
+  @include spaceLeft(var(--space-l));
+}
+
+.ml-xl {
+  @include spaceLeft(var(--space-xl));
+}
+
+.ml-none {
+  @include spaceLeft(var(--space-none));
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.m-none {
+  margin: 0;
+}
+
+.m-none--i {
+  margin: 0 !important;
+}

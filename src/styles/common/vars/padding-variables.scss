@@ -1,0 +1,11 @@
+:root {
+  --padding-unit: 0.25rem;
+
+  --padding-xs: var(--padding-unit);
+  --padding-s: calc(var(--padding-unit) * 2);
+  --padding-m: calc(var(--padding-unit) * 3);
+  --padding-l: calc(var(--padding-unit) * 4);
+  --padding-xl: calc(var(--padding-unit) * 6);
+  --padding-xxl: calc(var(--padding-unit) * 8);
+  --padding-none: 0;
+}

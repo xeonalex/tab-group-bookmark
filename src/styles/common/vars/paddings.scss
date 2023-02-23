@@ -1,0 +1,198 @@
+@import 'padding-variables';
+@import '../mixins/padding-mixin';
+
+// PT
+.pt-xs {
+  @include paddingTop(var(--padding-xs));
+}
+
+.pt-s {
+  @include paddingTop(var(--padding-s));
+}
+
+.pt-m {
+  @include paddingTop(var(--padding-m));
+}
+
+.pt-l {
+  @include paddingTop(var(--padding-l));
+}
+
+.pt-xl {
+  @include paddingTop(var(--padding-xl));
+}
+
+.pt-xxl {
+  @include paddingTop(var(--padding-xxl));
+}
+
+.pt-none {
+  @include paddingTop(var(--padding-none));
+}
+
+// PR
+.pr-xs {
+  @include paddingRight(var(--padding-xs));
+}
+
+.pr-s {
+  @include paddingRight(var(--padding-s));
+}
+
+.pr-m {
+  @include paddingRight(var(--padding-m));
+}
+
+.pr-l {
+  @include paddingRight(var(--padding-l));
+}
+
+.pr-xl {
+  @include paddingRight(var(--padding-xl));
+}
+
+.pr-xxl {
+  @include paddingRight(var(--padding-xxl));
+}
+
+.pr-none {
+  @include paddingRight(var(--padding-none));
+}
+
+// PB
+.pb-xs {
+  @include paddingBottom(var(--padding-xs));
+}
+
+.pb-s {
+  @include paddingBottom(var(--padding-s));
+}
+
+.pb-m {
+  @include paddingBottom(var(--padding-m));
+}
+
+.pb-l {
+  @include paddingBottom(var(--padding-l));
+}
+
+.pb-xl {
+  @include paddingBottom(var(--padding-xl));
+}
+
+.pb-xxl {
+  @include paddingBottom(var(--padding-xxl));
+}
+
+.pb-none {
+  @include paddingBottom(var(--padding-none));
+}
+
+// PL
+.pl-xs {
+  @include paddingLeft(var(--padding-xs));
+}
+
+.pl-s {
+  @include paddingLeft(var(--padding-s));
+}
+
+.pl-m {
+  @include paddingLeft(var(--padding-m));
+}
+
+.pl-l {
+  @include paddingLeft(var(--padding-l));
+}
+
+.pl-xl {
+  @include paddingLeft(var(--padding-xl));
+}
+
+.pl-xxl {
+  @include paddingLeft(var(--padding-xxl));
+}
+
+.pl-none {
+  @include paddingLeft(var(--padding-none));
+}
+
+// P
+.p-none {
+  padding: var(--padding-none);
+}
+
+.p-xs {
+  @include paddingX(var(--padding-xs));
+  @include paddingY(var(--padding-xs));
+}
+
+.p-s {
+  @include paddingX(var(--padding-s));
+  @include paddingY(var(--padding-s));
+}
+
+.p-m {
+  @include paddingX(var(--padding-m));
+  @include paddingY(var(--padding-m));
+}
+
+.p-l {
+  @include paddingX(var(--padding-l));
+  @include paddingY(var(--padding-l));
+}
+
+.p-xl {
+  @include paddingX(var(--padding-xl));
+  @include paddingY(var(--padding-xl));
+}
+
+//PX
+.px-xs {
+  @include paddingX(var(--padding-xs));
+}
+
+.px-s {
+  @include paddingX(var(--padding-s));
+}
+
+.px-m {
+  @include paddingX(var(--padding-m));
+}
+
+.px-l {
+  @include paddingX(var(--padding-l));
+}
+
+.px-xxl {
+  @include paddingX(var(--padding-xxl));
+}
+
+.px-none {
+  @include paddingX(var(--padding-none));
+}
+
+//PY
+.py-xs {
+  @include paddingY(var(--padding-xs));
+}
+
+.py-s {
+  @include paddingY(var(--padding-s));
+}
+
+.py-m {
+  @include paddingY(var(--padding-m));
+}
+
+.py-l {
+  @include paddingY(var(--padding-l));
+}
+
+.py-xxl {
+  @include paddingY(var(--padding-xxl));
+}
+
+.py-none {
+  @include paddingY(var(--padding-none));
+}
