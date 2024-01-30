@@ -20,7 +20,7 @@ export const BookmarksStructure = () => {
 
     return (
         <div>
-            <Title level={4}>Extension bookmarks</Title>
+            <Title level={5}>Extension bookmarks</Title>
             {folderCreated && (
                 <Alert
                     message={`Extension folder ${defaultFolderName} - created`}
