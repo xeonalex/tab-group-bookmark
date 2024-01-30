@@ -1,9 +1,7 @@
-import React from "react";
 import styles from '@/styles/pages/DefaultPopup.module.scss'
-import classNames from "classnames";
+import {Row, Col} from "antd/es/grid";
 import {BookmarksStructure} from "@/components/BookmarksStructure/BookmarksStructure";
 import {TabGroups} from "@/components/TabGroups/TabGroups";
-import {Col, Row} from "antd";
 
 export default function DefaultPopup() {
     return (

@@ -1,5 +1,5 @@
 import create from "zustand";
-import produce from "immer";
+import {produce} from "immer";
 import {bookmarkWorker} from "@/helpers/bookmark-worker";
 
 interface BookmarksStore {

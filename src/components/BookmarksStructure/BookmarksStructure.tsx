@@ -1,7 +1,12 @@
 import React, {useEffect} from 'react';
 import {useBookmarksStore} from "@/stores/bookmarks.store";
 import {defaultFolderName} from "@/helpers/bookmark-worker";
-import {Alert, Empty, Spin, Tree, Typography} from "antd";
+
+import Alert from 'antd/es/alert';
+import Empty from 'antd/es/empty';
+import Spin from 'antd/es/spin';
+import Tree from 'antd/es/tree';
+import Typography from 'antd/es/typography';
 
 const { Title } = Typography;
 
